@@ -38,7 +38,7 @@ function App() {
 
       <Footer />
 
-      {/* Global State Controller (For Testing Assignments Legacy) */}
+      
       <div style={{ position: 'fixed', bottom: '60px', right: '2rem', display: 'flex', gap: '0.75rem' }}>
         <button 
           onClick={toggleStatus} 
