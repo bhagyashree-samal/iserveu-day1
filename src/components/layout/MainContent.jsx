@@ -2,7 +2,7 @@ import React from 'react';
 import UserGateway from '../common/UserGateway';
 
 const MainContent = ({ currentView, user }) => {
-  // If status is suspended, show warning globally (instead of regular UI)
+ 
   if (user.status === 'suspended') {
     return (
       <main className="content-area" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
@@ -27,7 +27,7 @@ const MainContent = ({ currentView, user }) => {
     );
   }
 
-  // Default Dashboard View (Assignment 1 logic)
+
   return (
     <main className="content-area">
       <header style={{ marginBottom: '2rem' }}>
